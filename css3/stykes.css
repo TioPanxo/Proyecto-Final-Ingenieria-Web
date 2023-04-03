@@ -1,0 +1,42 @@
+.div .lista ul{
+    margin: 60px;
+    align-items: top;
+    list-style: none;
+}
+
+
+.div .lista ul li{
+    margin: 10px;
+    width: 800px;
+    border: 1px solid green;
+    border-radius: 8%;
+    
+}
+
+
+.contenedor{
+    display: flex;
+}
+
+.lista{
+    padding: 1px 100px;
+    background: off;
+    width: 100px;
+    height: 500px;
+    margin: 20px;
+}
+
+.TextoRecetas{
+    margin: 0px;
+    width: 600px;
+    font-size: 16px;
+}
+div#lista{
+    float:right;
+    width: 900px;
+    height: 500px;
+}
+
+div.TextoRecetas{
+    width: 900px;
+}

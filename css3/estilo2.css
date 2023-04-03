@@ -1,0 +1,24 @@
+
+
+
+
+.Texto{
+    
+    align-items: center;
+    
+}
+
+.div.contenedor{
+    display: flex;
+}
+
+.div.Texto.h1{
+    margin: 0;;
+
+}
+.imagen{
+    align-items: center;
+    display: flex;
+}
+
+
