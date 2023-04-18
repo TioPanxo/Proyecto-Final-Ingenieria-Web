@@ -21,14 +21,17 @@
 
 .textoIndex{
     font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Urbanist', sans-serif;
     text-align: center;
+    display: grid;
+    place-items: center;
 }
 
 .textoIndex p{
+    margin: 50px;
     text-overflow: clip;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Urbanist', sans-serif;
     max-width: 100%;
 }
 
@@ -39,8 +42,9 @@
 .listaFooter{
     list-style: none;
     display: flex;
-    float:none;
     text-align: center;
+    place-items: center;
+    justify-items: center;
 }
 
 .elementoListaFooter{
