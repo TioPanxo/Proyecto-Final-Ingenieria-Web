@@ -5,23 +5,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <title>¿Quienes Somos?</title>
+        <title>EcoVida</title>
         <script src="https://kit.fontawesome.com/1e76b598b4.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/css3/estilos11.css">
+        <link rel="stylesheet" href="css/styles.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     </head>
     <body >
         <!--barra de navegacion-->
         <header>
-            <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <img class="imagenMarcaHeader" src="images3/EcovidaImg.jpeg" alt="" style="width: 80px;height: 80px;">
+                    <a class="navbar-brand" href="#">
+                        <img class="imagenMarcaHeader" src="images/marca.png" alt="Imagen header">
+                        EcoVida
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav" >
                             <li class="nav-item">
                                 <a class="nav-link" href="alimentacion.html">Alimentacion</a>
@@ -38,70 +39,66 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="aboutus.html">¿Quienes Somos?</a>
                             </li>
+                            <li>
+                                <!--boton de inicio de sesion-->
+                                <a href="inicioSecion.html">
+                                    <button type="button" class="btn btn-success" style="align-items: end;">Iniciar Sesion</button>
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                    <!--boton de inicio de sesion-->
-                    <a href="inicioSecion.html">
-                        <button type="button" class="btn btn-success" style="align-items: end;">Iniciar Sesion</button>
-                    </a>
                 </div>
             </nav>
         </header>
 
-        <section>
+        <main>
+            <section>
+                <div class="container-fluid index">
 
-            <div class="contenedor" style="background-color: #a5d2e7;">
 
-                <div class="Texto" style="display: flex; align-items: center;">
-                    <h1 style="text-align: left; font-size: 80px; font-family: Arial, Helvetica, sans-serif;
-                    margin: 50px;">
-                        Vive Sano, vive <br>
-                        verde.</br>
-                        <p style="text-align: left; font-size: 20px;font-family: Arial, Helvetica, sans-serif;
-                        width: 900px; margin: 50px;">
-                            Un estilo de vida saludable para un futuro saludable:
-                        cuida el <br>planeta y cuida a ti mismo</br>
-                        </p>
-                    </h1>
-                    
-                    <img src="images3/Bosque.jpg" alt="" height="400px" width="400px" style="border-radius: 50%;
-                    align-items:rigth;">
+                    <div class="row">
+                        <div class="col-sm-6 justify-content-center">
+
+                            <div class="row">
+                                <div class="textoIndex">
+                                    <div class="col-sm-8">
+                                        Vive Sano, vive verde.
+                                        <p>Un estilo de vida saludable para un futuro saludable cuida el planeta y cuida a ti mismo</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--boton-->
+                            <div class="row text-center">
+                                    <a href="inicioSecion.html">
+                                        <button type="button" class="btn btn-success">Registrate</button>
+                                    </a>
+                            </div>
+                        </div>
+                        <!--imagen-->
+                        <div class="col-sm-6 text-center">
+                            <img src="images/Bosque.jpg" alt="Imagen bosque index" class="img-fluid img-rounded">
+                        </div>
+                    </div>
 
                 </div>
-
-                
-                    
-                
-               
-                <div class="botom">
-                    <a href="inicioSecion.html">
-                        <input type="button" 
-                        value="Registrate" 
-                        style="background-color: green; color: aliceblue; border: #1E8949; 
-                        border-radius: 10%; margin: 50px;">
-                    </a>
-                </div>
-
-            </div>
-
-
-
-            
-
-        </section>
+            </section>
+        </main>
+        
         <footer>
             <div class="container-fluid text-center">
                 <div class="row">
-                    <div class="col" style="text-align: left;">
-                        <a class="navbar-brand" href="index.html">
-                            <img class="imagenMarcaHeader" src="/images3/EcovidaImg.jpeg" alt="" width="80px" height="80px">
+                    <div class="col">
+                        <a class="navbar-brand" href="#">
+                            <img class="imagenMarcaHeader" src="images/marca.png" alt="" width="80px" height="80px">
+                            EcoVida
                         </a>
                     </div>
-                    <div class="col-6" style="text-align: center;">
+                    <div class="col-sm-6">
                         EcoVida 2023
                     </div>
-                    <div class="col" style="text-align: end;">
-                        <ul class="listaFooter" style="list-style: none;">
+                    <div class="col text-center">
+                        <ul class="listaFooter">
                             <li class="elementoListaFooter">
                                 <i class="fa-brands fa-square-instagram"></i>
                             </li>

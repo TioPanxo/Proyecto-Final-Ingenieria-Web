@@ -1,7 +1,35 @@
 .imagenMarcaHeader{
-    width: 185px;
+    width: 50px;
     height: 50px;
     object-fit: cover;
+}
+
+.container-fluid.index{
+    background-color: #a5d2e7;
+    padding: 50px;
+}
+
+.container-fluid.index img{
+    object-fit: cover;
+    border-radius: 50%;
+    align-items:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 600px;
+    max-width: 100%;
+}
+
+.textoIndex{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.textoIndex p{
+    text-overflow: clip;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
 }
 
 .nav-link{
@@ -11,16 +39,12 @@
 .listaFooter{
     list-style: none;
     display: flex;
-    float: right;
-    text-align: end;
+    float:none;
+    text-align: center;
 }
 
 .elementoListaFooter{
     margin-right: 10px;
-}
-
-section{
-    background-color: rgb(201, 221, 201);
 }
 
 .imagen1{
@@ -142,3 +166,8 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+.navbar.navbar-expand-lg{
+    background-color: #ffffff !important;
+}
