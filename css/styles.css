@@ -189,3 +189,20 @@ p{
 .aboutUs{
     background-color: #bcedc6;
 }
+
+.nav-link{
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    color: #269753 !important;
+    animation: tilt-shaking 0.5s;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(2deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-2deg); }
+    100% { transform: rotate(0deg); }
+}
