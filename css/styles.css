@@ -185,3 +185,42 @@ p{
 .aboutUs{
     background-color: #bcedc6;
 }
+
+.formulario{
+    text-align: center;
+}
+
+.boton-registro .boton{
+    display: flex;
+    justify-content: center;
+}
+
+:root{
+    --green: #cdecc5;
+    --green-x: #77b36f;
+    --light: #000000;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+
+}
+
+.bg-green { background-color: var(--green);}
+
+
+.bg-green-x { background-color: var(--green-x);}
+
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.img-1{
+    background-image: url('./images');
+    background-size: cover;
+    background-position: center;
+}
+.carousel-inner{
+    background-size: cover;
+}
