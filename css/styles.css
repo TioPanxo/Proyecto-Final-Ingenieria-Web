@@ -175,6 +175,7 @@ p{
 
 .navbar.navbar-expand-lg{
     background-color: #ffffff !important;
+    
 }
 
 .tituloAboutUs{
@@ -205,4 +206,12 @@ p{
     50% { transform: rotate(0deg); }
     75% { transform: rotate(-2deg); }
     100% { transform: rotate(0deg); }
+}
+
+header{
+    font-family:'Urbanist', sans-serif;
+}
+
+footer{
+    font-family:'Urbanist', sans-serif;
 }
