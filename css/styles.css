@@ -32,8 +32,8 @@
     max-width: 100%;
 }
 
-.nav-link{
-    color: #1E8949;
+.nav-link.active{
+    color: #269753 !important;
 }
 
 .listaFooter{
@@ -61,7 +61,7 @@
 }
 
 .breadcrumb{
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 h1{
@@ -170,4 +170,17 @@ p{
 
 .navbar.navbar-expand-lg{
     background-color: #ffffff !important;
+}
+
+.tituloAboutUs{
+    color: #1E8949;
+}
+
+.aboutUs .img{
+    width: 45%;
+    height: auto;
+}
+
+.aboutUs{
+    background-color: #bcedc6;
 }
