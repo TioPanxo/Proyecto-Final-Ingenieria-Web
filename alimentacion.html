@@ -10,7 +10,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     </head>
 
-    <body>
+    <body class="fondoAlimentacion">
+
         <!--barra de navegacion-->
         <header>
             <nav class="navbar navbar-expand-lg">
@@ -22,10 +23,10 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav" >
                             <li class="nav-item">
-                                <a class="nav-link" href="alimentacion.html">Alimentacion</a>
+                                <a class="nav-link active" aria-current="page" href="#">Alimentacion</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="CambioClim.html">Cambio Climatico</a>
@@ -39,24 +40,25 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="aboutus.html">¿Quienes Somos?</a>
                             </li>
+                            <li>
+                                <!--boton de inicio de sesion-->
+                                <a href="inicioSes.html">
+                                    <button type="button" class="btn btn-success" style="align-items: end;">Iniciar Sesion</button>
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                    <!--boton de inicio de sesion-->
-                    <a href="inicioSecion.html">
-                        <button type="button" class="btn btn-success" style="align-items: end;">Iniciar Sesion</button>
-                    </a>
                 </div>
             </nav>
         </header>
 
-        <section class="alimentacion">
+        <section class="alimentacion"  >
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html" style="color: #1E8949;">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page" style="color: #1E8949;">Alimentación</li>
                 </ol>
             </nav>
-            <img class="img3" src="images/img 3.png" alt="">
             <div class="cartel1">
                 Alimentación
                 <p>"Una alimentación saludable es el mejor regalo que puedes darte a ti mismo. Es la clave para mantener un cuerpo sano, lleno de energía y vitalidad, y una mente clara y enfocada. Al invertir en tu alimentación, estás invirtiendo en tu bienestar a largo plazo. Así que no lo pienses más, ¡comienza a alimentarte conscientemente hoy mismo!"</p>
