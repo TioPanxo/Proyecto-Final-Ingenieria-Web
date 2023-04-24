@@ -414,3 +414,11 @@ section.recetas ul li{
     width: 100px;
 }
 
+.camb ul li{
+    display: flex;
+}
+
+.camb .card-img-top{
+    width: 100px;
+}
+
